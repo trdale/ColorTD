@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- 
+/*****************************************************************************
+*			         CS 419 - Software Projects
+*				 Oregon State University - Summer 2016
+*     	           WEB 1: Real-Time Strategy Game
+*
+* Project Team: Xi
+* Members: Brandon Gipson, Tom Dale, James Pool
+*
+* Filename: index.html
+* Version: -
+* Description: Tower defense HTML page
+*
+*****************************************************************************/
+-->
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>CS-419 Xi Tower Defense</title>
+        <link href="content/startStyle.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <audio id = "startBGM" autoplay loop><source src="content/sounds/bgm/startBGM.mp3"></audio>
+        <div id='background'><div>Xi Tower Defense <a id='button' href='./AG-index.html'>Start Game!</a></div></div>
+        
+        <script>
+                var startBGM = document.getElementById('startBGM');
+                startBGM.volume = .75;
+        </script>
+    </body>
+</html>

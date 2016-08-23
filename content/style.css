@@ -1,0 +1,22 @@
+#game_field {
+	position: relative;
+    margin: 0 auto;
+	display: block;
+	background:url('./images/backgroundAssets/DefaultBackground.png');
+}
+
+#button {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+	margin: 160px 0 0 -45px;
+	font: bold 11px Arial;
+	text-decoration: none;
+  	background-color: #EEEEEE;
+  	color: #333333;
+  	padding: 2px 6px 2px 6px;
+  	border-top: 1px solid #CCCCCC;
+  	border-right: 1px solid #333333;
+  	border-bottom: 1px solid #333333;
+  	border-left: 1px solid #CCCCCC;
+}
